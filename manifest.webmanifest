@@ -1,9 +1,0 @@
-{
-  "name": "Mis gastos",
-  "short_name": "Gastos",
-  "description": "Registro simple de gastos personales.",
-  "start_url": "./",
-  "display": "standalone",
-  "background_color": "#f7f6fb",
-  "theme_color": "#5b4bdb"
-}
