@@ -1,0 +1,36 @@
+.money-columns {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(120px, 1fr);
+  gap: 12px;
+}
+
+.hero-card strong {
+  font-size: clamp(25px, 7vw, 45px);
+  letter-spacing: -2px;
+  line-height: 1.08;
+  overflow-wrap: anywhere;
+}
+
+.category-row {
+  grid-template-columns: 1fr auto;
+}
+
+.hero-pill b,
+.hero-stats b,
+.summary-heading b {
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 430px) {
+  .money-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-card strong {
+    font-size: 29px;
+  }
+
+  .hero-pill {
+    max-width: 43%;
+  }
+}

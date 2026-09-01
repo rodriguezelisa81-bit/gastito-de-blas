@@ -1,0 +1,9 @@
+{
+  "name": "Gastito de Blas",
+  "short_name": "Gastito",
+  "description": "Registro simple de ingresos y gastos en pesos y dólares.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7f6f0",
+  "theme_color": "#1e543f"
+}
